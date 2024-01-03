@@ -1,20 +1,3 @@
-// const bank_input = document.querySelector('#bank_input'); // 입금 input
-// const bank_total = document.querySelector('#bank_total'); // 총잔액 input
-// const bank_btn = document.querySelector('#bank_btn'); // 입금버튼
-// let total = 10000 //number
-// console.log(bank_input, bank_total, bank_btn);
-// bank_total.value = total
-
-// bank_btn.addEventListener('click',function(){
-//     console.log(Number(bank_input.value) + 100) // 더하기 결과 확인
-//     console.log(total + Number(bank_input.value)) // 총 잔액 더하기 결과 확인
-//     let input_total = Number(bank_input.value) + 100 // 입금액 + 이자
-//     total += input_total; //total = total + input_total;
-//     bank_total.value = total;
-//     //입금액 입력값 초기화
-//     bank_input.value = ''; // 중요 //
-// })
-
 /* 계산식) **적정체중 = (본인신장-100)*0.9**
 
 변수명 예) **userHeight, userWeight, goals, result, normal_w**
