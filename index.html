@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .all {margin: 0 auto; text-align: center; display: flex; flex-flow: column nowrap; width: 800px;}
+    h1 {
+        border: 1px solid white; display: inline-block;
+        background-color: tomato; border-radius: 10px; color: #fff;
+        padding: 10px;
+    }
+    p {
+        border: 1px solid white; display: inline-block;
+        background-color: tomato; border-radius: 5px; color: #fff;
+        padding: 10px;
+    }
+    ul {border: 1px solid black; padding: 50px; display: inline-block; align-items: center;
+        background-color: tomato; border-radius: 10px; border: none;
+    }
+    ul li {
+        width: 300px; display: inline-block; display: flex; flex-flow: column nowrap; text-align: center;
+        align-items: center; margin: 0 auto; color: #fff;
+    }
+    #result {background-color: steelblue; color: #fff; padding: 10px; border: none; border-radius: 10px;}
+</style>
+<body>
+    <div class="all">
+        <h1>다이어트 체중계</h1>
+        <p>당신의 건강몸무게를 알아보세요!</p>
+        <ul>
+            <li>현재 키 : <input type="text" id="height">cm</li>
+            <li>현재 몸무게 : <input type="text" id="weight">kg</li>
+            <li>최종 목표 : <input type="text" id="goals"></li>
+        </ul>
+        <button type="button" id="result">결과보기</button>
+    </div>
+    <script src="./js/index.js"></script>
+</body>
+</html>
